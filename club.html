@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Clubs - Raihan Muhammad</title>
+    <link rel="stylesheet" href="./assets/css/materialize.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+
+  <body>
+    <nav class="light-blue darken-2" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="index.html" id="logo-container">RaihanBall</a>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container">
+        <h4 class="mt-0 white-text" id="text-welcome">
+          English league
+        </h4>
+        <p class="white-text">
+          Information about english league standings, hope you enjoy it
+        </p>
+        <a
+          class="waves-effect waves-light btn light-blue darken-4"
+          href="index.html"
+          >kembali</a
+        >
+      </div>
+    </header>
+
+    <main class="container" id="body-content"></main>
+
+    <div class="fixed-action-btn" id="hilang-club">
+      <a class="btn-floating btn-large pink" id="love">
+        <i class="large material-icons">favorite</i>
+      </a>
+    </div>
+
+    <script src="./assets/js/materialize/materialize.min.js"></script>
+    <script src="./assets/js/idb.js"></script>
+    <script src="./assets/js/db.js"></script>
+    <script src="./assets/js/main-club.js" type="module"></script>
+    <script src="./assets/js/init.js"></script>
+  </body>
+</html>

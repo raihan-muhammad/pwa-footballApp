@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Clubs - Raihan Muhammad</title>
+    <link rel="stylesheet" href="./assets/css/materialize.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+
+  <body>
+    <nav class="light-blue darken-2" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="index.html" id="logo-container">RaihanBall</a>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container">
+        <h4 class="mt-0 white-text" id="text-welcome">
+          Teams favorite
+        </h4>
+        <p class="white-text">
+          list of your favorite teams
+        </p>
+        <a
+          class="waves-effect waves-light btn light-blue darken-4"
+          href="index.html"
+          id="btn-back"
+          >kembali</a
+        >
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="row" id="body-content" style="margin-top: -14em;">
+        <div id="not-found-fav"></div>
+      </section>
+    </main>
+
+    <script src="./assets/js/materialize/materialize.min.js"></script>
+    <script src="./assets/js/idb.js"></script>
+    <script src="./assets/js/db.js"></script>
+    <script src="./assets/js/main-favorite.js" type="module"></script>
+    <script src="./assets/js/init.js"></script>
+  </body>
+</html>
